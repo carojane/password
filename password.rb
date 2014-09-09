@@ -1,0 +1,30 @@
+decoder = {"a"=>"MqG2%8",
+ "b"=>"H9e7%o",
+ "c"=>"H^P70S",
+ "d"=>"A!g8J3",
+ "e"=>"Nf3S2#",
+ "f"=>"VI52%x",
+ "g"=>"F1$X3J",
+ "h"=>"Th1$3e",
+ "i"=>"QK12N@",
+ "j"=>"P6#7EW",
+ "k"=>"O^u81K",
+ "l"=>"F*F1C6",
+ "m"=>"H6fN0!",
+ "n"=>"Qa^76X",
+ "o"=>"U4C2Z&",
+ "p"=>"O5zy*3",
+ "q"=>"D46%AU",
+ "r"=>"W44%Sm",
+ "s"=>"D87$OG",
+ "t"=>"WAk36*",
+ "u"=>"L2H^1n",
+ "v"=>"H9G&w3",
+ "w"=>"Tg7Y8!",
+ "x"=>"V6@j6C",
+ "y"=>"Z6c1*I",
+ "z"=>"L1B$h2"}
+
+code = gets.chomp.downcase.split("")
+password = code.map{|l| decoder[l]}
+puts password.join
